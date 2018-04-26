@@ -1,0 +1,8 @@
+c:\users\anan\documents\visual studio 2010\Projects\project\project\bin\project.dll
+c:\users\anan\documents\visual studio 2010\Projects\project\project\bin\project.pdb
+c:\users\anan\documents\visual studio 2010\Projects\project\project\obj\Debug\project.dll
+c:\users\anan\documents\visual studio 2010\Projects\project\project\obj\Debug\project.pdb
+E:\Projects\project\project\bin\project.dll
+E:\Projects\project\project\bin\project.pdb
+E:\Projects\project\project\obj\Debug\project.dll
+E:\Projects\project\project\obj\Debug\project.pdb
