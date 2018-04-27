@@ -22,7 +22,7 @@ namespace project
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
-                Response.Write("<script>alert('Registered successfully! Go back and login.');</script>");
+                Response.Write("<script>alert('Registered successfully! Go back and login.');window.location.href='login.aspx';</script>");
                 TextBox1.Text = "";
                 TextBox2.Text = "";
                 TextBox3.Text = "";

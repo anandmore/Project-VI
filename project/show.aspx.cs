@@ -15,7 +15,7 @@ namespace project
             {
                 Button1.Enabled = false;
                 GridView1.Enabled = false;
-                Response.Write("<script>alert('Please login to gain access to this page!');</script>");
+                Response.Write("<script>alert('Please login to gain access to this page!');window.location.href='login.aspx';</script>");
             }
         }
         protected void Button1_Click(object sender, EventArgs e)

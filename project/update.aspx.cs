@@ -16,7 +16,7 @@ namespace project
                 Button1.Enabled = false;
                 TextBox1.Enabled = false;
                 TextBox2.Enabled = false;
-                Response.Write("<script>alert('Please login to gain access to this page!');</script>");
+                Response.Write("<script>alert('Please login to gain access to this page!');window.location.href='login.aspx';</script>");
             }
         }
         protected void Button1_Click(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace project
                 con.Open();
                 cmd.ExecuteNonQuery();
                 con.Close();
-                Response.Write("<script>alert('Updated successfully!');</script>");
+                Response.Write("<script>alert('Updated successfully!');window.location.href='admin.aspx';</script>");
                 TextBox1.Text = "";
                 TextBox2.Text = "";
             }

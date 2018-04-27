@@ -6,3 +6,4 @@ E:\Projects\project\project\bin\project.dll
 E:\Projects\project\project\bin\project.pdb
 E:\Projects\project\project\obj\Debug\project.dll
 E:\Projects\project\project\obj\Debug\project.pdb
+E:\Projects\project\project\obj\Debug\project.csprojResolveAssemblyReference.cache

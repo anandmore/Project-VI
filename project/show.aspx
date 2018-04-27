@@ -20,6 +20,10 @@
         <asp:Button class="button" ID="Button1" runat="server" Font-Bold="True" OnClick="Button1_Click"
             Text="SHOW" />
         <br />
+        <br />
+        <asp:Button class="button" ID="Button2" runat="server" Font-Bold="True" Text="BACK"
+            PostBackUrl="~/admin.aspx" />
+        <br />
     </center>
     </form>
 </body>
