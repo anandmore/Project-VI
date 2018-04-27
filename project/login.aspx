@@ -13,10 +13,9 @@
             <h1>
                 MIT Boys Hostel</h1>
         </a>
-        <asp:TextBox class="input" ID="TextBox1" runat="server" placeholder="Username" required></asp:TextBox>
+        <asp:TextBox class="input" ID="TextBox1" runat="server" placeholder="Username"></asp:TextBox>
         <br />
-        <asp:TextBox class="input" ID="TextBox2" runat="server" TextMode="Password" placeholder="Password"
-            required></asp:TextBox>
+        <asp:TextBox class="input" ID="TextBox2" runat="server" TextMode="Password" placeholder="Password"></asp:TextBox>
         <br />
         <br />
         <asp:Button class="button" ID="Button1" runat="server" Font-Bold="True" Text="LOGIN"
