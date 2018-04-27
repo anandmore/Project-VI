@@ -13,6 +13,7 @@ namespace project
                 Button3.Enabled = false;
                 Button4.Enabled = false;
                 Button5.Enabled = false;
+                Response.Write("<script>alert('Please login to gain access to this page!');</script>");
             }
         }
         protected void Button5_Click(object sender, EventArgs e)

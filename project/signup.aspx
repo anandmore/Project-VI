@@ -9,9 +9,10 @@
 <body>
     <form id="form1" runat="server">
     <center>
-        <img src="mit.png" width="11%" height="11%" />&nbsp;
-        <a href="login.aspx" style="text-decoration:none;"><h1>
-            MIT Boys Hostel</h1></a>
+        <img src="mit.png" width="11%" height="11%" />&nbsp; <a href="login.aspx" style="text-decoration: none;">
+            <h1>
+                MIT Boys Hostel</h1>
+        </a>
         <asp:TextBox class="input" ID="TextBox1" runat="server" placeholder="Name" required></asp:TextBox>
         &nbsp;&nbsp;
         <asp:TextBox class="input" ID="TextBox2" runat="server" placeholder="Username" required></asp:TextBox>

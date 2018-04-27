@@ -14,6 +14,16 @@ namespace project
             if (i == 0)
             {
                 Button1.Enabled = false;
+                TextBox1.Enabled = false;
+                TextBox2.Enabled = false;
+                TextBox3.Enabled = false;
+                TextBox4.Enabled = false;
+                TextBox5.Enabled = false;
+                TextBox6.Enabled = false;
+                TextBox7.Enabled = false;
+                TextBox8.Enabled = false;
+                TextBox9.Enabled = false;
+                Response.Write("<script>alert('Please login to gain access to this page!');</script>");
             }
         }
         protected void Button1_Click(object sender, EventArgs e)

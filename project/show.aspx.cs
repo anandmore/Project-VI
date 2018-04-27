@@ -14,6 +14,8 @@ namespace project
             if (i == 0)
             {
                 Button1.Enabled = false;
+                GridView1.Enabled = false;
+                Response.Write("<script>alert('Please login to gain access to this page!');</script>");
             }
         }
         protected void Button1_Click(object sender, EventArgs e)
