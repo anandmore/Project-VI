@@ -1,1 +1,1 @@
-# Project-VI
+# Hostel Management System
